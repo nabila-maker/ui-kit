@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 68px, 5%;
+  font-family: 1rem "Open Sans Condensed", sans-serif;
+}
+
+.window {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.window-content1, .window-content2, .window-content3 {
+  height: 70px;
+  width: 90%;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 7px;
+  box-shadow: 1px 1px 1px 2px lightgrey;
+  justify-content: space-between;
+}
+
+img {
+  width: 3%;
+}
+
+p {
+  margin: 0 15px 0 15px;
+}
+
+.window-content2 {
+  border: 3px solid;
+}
+
+/*# sourceMappingURL=style.css.map */
